@@ -1,5 +1,1 @@
-function greet(name) {
-  console.log("Hello, " + name + "!");
-}
-
-greet("Bob");
+const isPalindrome = (str) => str === str.split("").reverse().join("");
